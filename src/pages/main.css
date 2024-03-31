@@ -1,0 +1,237 @@
+.custom-border{
+    border: 2px solid #45474B;
+    box-shadow: 3px 2px 7px 5px #45474B;
+}
+.custom-border2{
+    border: 2px solid black;
+}
+.custom-border3{
+    border: 1px solid black;
+}
+
+.custom-border4{
+    border: 1px solid #45474B;
+    box-shadow: 4px 2px 7px 5px #45474B;
+    border-bottom-color: #F5F7F8; ;
+}
+
+
+.container-size {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/* Extra Small Devices (xs) */
+@media only screen and (max-width: 575.98px) {
+    .container-size {
+        max-width: 572px;
+    } 
+    .txt-sm{
+        font-size: 12px;
+    }
+ }
+
+  
+  /* Small Devices (sm) */
+  @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .container-size {
+        max-width: 765px;
+    }
+    .txt-sm{
+        font-size: 12px;
+    }
+}
+  
+  /* Medium Devices (md) */
+  @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .custom-banner-pic{
+        max-width: 990px;
+        padding-top: 100px;
+    }
+    .container-size {
+        max-width: 990px;
+    }
+    .txt-sm{
+        font-size: 12px;
+    }
+  }
+  
+  /* Large Devices (lg) */
+  @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .container-size {
+        max-width: 1198px;
+    }
+    .txt-sm{
+        font-size: 10px;
+    }
+  }
+  
+  /* Extra Large Devices (xl) */
+  @media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+    .container-size {
+        max-width: 1396px;
+    }
+    .txt-sm{
+        font-size: 14px;
+    }
+  }
+  
+  /* Extra Extra Large Devices (xxl) */
+  @media only screen and (min-width: 1400px) and (max-width: 1599.98px) {
+    .container-size {
+        max-width: 1598px;
+    }
+    .txt-sm{
+        font-size: 16px;
+    }
+}
+  
+  /* Extra Extra Extra Large Devices (xxxl) */
+  @media only screen and (min-width: 1600px) {
+    .media-size-text{
+        min-width: 1600px;
+        font-size: 1.8em;
+    }
+    .container-size {
+        max-width: 2660px;
+    }
+    .txt-sm{
+        font-size: 18px;
+    }
+  }
+  
+
+
+
+
+
+
+
+.custom-nav-logo-text{
+    color: #45474B;
+    font-size: 1.5em;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.custom-nav-item-text{
+    color: #45474B;
+    font-family: monospace;
+    font-size: 1.25em;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.custom-nav-background{
+    background-color: #F4CE14;
+    border: 2px solid #45474B;
+    box-shadow: 3px 2px 7px 5px #45474B;
+}
+
+.custom-banner-pic{
+    width: 66%;
+}
+
+.custom-banner-background{
+    background-color: #F5F7F8;
+}
+
+.custom-banner-heading-align{
+    padding: 0.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: #45474B;
+    font-family: monospace;
+    font-size: 2.88em;
+
+}
+.custom-banner-subheading-align{
+    padding: 0.5rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+    color: #495E57;
+    font-family: monospace;
+    font-size: 1.63em;
+}
+.custom-banner-p-align{
+    color: #495E57;
+    text-align: justify;
+    font-family: monospace;
+    font-size: 1.13em;
+}
+
+.custom-soical-icon{
+    font-size: 42px;
+    color: #F4CE14;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.skill-background{
+    background-color: #F5F7F8 ;
+    border: 1px solid #45474B;
+    box-shadow: 4px 2px 7px 5px #45474B;
+    border-bottom-color: #F5F7F8; ;
+}
+
+
+.custom-skill-overall-space{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.custom-space-between-skill{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.custom-skill-name{
+    color: #495E57;
+    font-family: monospace;
+    font-size: 1.63em;
+}
+
+.main-heading{
+    color:#45474B;
+    font-family: monospace; 
+    font-size: 2.88em;
+}
+
+.sub-heading{
+    color: #495E57;
+    font-family: monospace;
+    font-size: 1.63em;
+}
+.custom-resume-background{
+    background-color: #F5F7F8;
+    border: 1px solid #45474B;
+    box-shadow: 4px 2px 7px 5px #45474B;
+    border-bottom-color: #F5F7F8; 
+    padding-bottom: 0.5rem;
+
+}
+.other-actual-text{
+    color:#495E57;
+    font-family: monospace;
+    font-size: 1.13em;
+}
+
+.custom-progressbar-color{
+    background-color: #F4CE14;
+}
+
+.custom-footer-background{
+    background-color: #F4CE14;
+}
+
+.custom-footer-text{
+color: #45474B;
+font-family: monospace;
+}
+

@@ -6,6 +6,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css"
 
 import reportWebVitals from './reportWebVitals';
 import Routing from './config/routue';
+import '../src/pages/main.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
